@@ -1,0 +1,508 @@
+#head {
+    border-bottom: 2px groove;
+    width: 1340px;
+    height: 80px;
+    padding-top: 10px;
+    box-sizing: border-box;
+}
+
+
+#headtable {
+    display: inline-block;
+    margin-left: 680px;
+}
+
+.td {
+    width: 220px;
+    text-align: center;
+    height: 30px;
+    margin-left: 10px
+}
+
+.td#td1 {
+    color: rgb(255, 255, 255);
+    width: 120px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid white;
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(215, 15, 100);
+}
+.td#td1:hover{cursor: pointer;
+box-shadow: 1px 1px 5px 5px rgb(233, 181, 203);}
+.td#td2 {
+    color: rgb(215, 15, 100);
+    width: 120px;
+    height: 40px;
+    box-sizing: border-box;
+    border: 2px solid rgb(215, 15, 100);
+    border-radius: 10px;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.td#td2:hover{cursor: pointer;
+box-shadow: 1px 1px 5px 5px rgb(233, 181, 203);}
+.td#td3 {
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(215, 15, 100);
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+#select {
+    border: 3px solid rgb(215, 15, 100);
+    background-color: rgb(215, 15, 100);
+    color: white;
+    height: 25px;
+}
+
+#body {
+    width: 1340px;
+    background-image: url(images/Background\ Image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 500px;
+}
+
+#p {
+    font-size: 35px;
+    width: 700px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    margin-left: 70px;
+    padding-top: 150px;
+}
+
+#headimg {
+    display: inline-block;
+    padding-left: 40px;
+    width: 140px;
+}
+
+#fieldset {
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+}
+
+#legend {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#input {
+    height: 30px;
+    width: 300px;
+    border: none;
+    font-size: 20px;
+}
+
+#bodyinput {
+    width: 500px;
+    height: 100px;
+    padding: 12px 5px;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 70px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+#form {
+    margin-left: 10px;
+    display: inline-block;
+}
+
+#p1 {
+    display: inline-block;
+    text-transform: uppercase;
+    text-align: center;
+    width: 120px;
+    height: 50px;
+    background-color: rgb(215, 15, 100);
+    padding-top: 20px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    font-weight: bold;
+    box-sizing: border-box;
+    margin-top: 5px;
+}
+#p1:hover{cursor: pointer;
+    box-shadow: 1px 1px 5px 5px rgb(233, 181, 203);}
+.pdiv {
+    width: 1340px;
+    height: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-left: 50px;
+    box-sizing: border-box;
+}
+
+.div2 {
+    background-image: url(images/Background\ Image\ 2.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 1340px;
+    height: 450px;
+}
+
+.div3 {
+    width: 1340;
+    height: 550px;
+    margin-bottom: 60px;
+}
+
+.div4 {
+    padding-left: 10px;
+    background-color: white;
+    width: 500px;
+    margin-left: 50px;
+    margin-top: 310px;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 5px 5px rgb(233, 232, 232);
+}
+.div4:hover{cursor: pointer;
+box-shadow: 2px 2px 10px 10px rgb(202, 198, 198);}
+.span1 {
+    font-size: x-large;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.span2 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.span3 {
+    width: 300px;
+    height: 200px;
+    text-transform: uppercase;
+    color: white;
+    background-color: rgb(215, 15, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 10px;
+}
+.span3:hover{  cursor: pointer;
+    box-shadow: 1px 1px 5px 5px rgb(233, 181, 203);}
+#div5 {
+    width: 1340px;
+    height: 2150px;
+    box-sizing: border-box;
+    padding-left: 35px;
+    padding-top: 20px;
+}
+
+.div7 {
+    width: 290px;
+    height: 250px;
+    display: inline-block;
+    border-radius: 20px;
+    margin-left: 15px;
+    margin-bottom: 15px;
+}
+.div7:hover{cursor: pointer;
+width: 300px;
+height: 260px;
+box-shadow: 1px 1px 5px 5px rgb(198, 193, 195);}
+.div7#a1 {
+    background-image: url(images/islamabad.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a2 {
+    background-image: url(images/karachi.JPG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a3 {
+    background-image: url(images/lahore.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a4 {
+    background-image: url(images/faisalabad.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a5 {
+    background-image: url(images/Rawalpindi.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a6 {
+    background-image: url(images/abbotabad.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a7 {
+    background-image: url(images/bahawalpur.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a8 {
+    background-image: url(images/dera\ ghazi\ khan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a9 {
+    background-image: url(images/gujranwala.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a10 {
+    background-image: url(images/gijrat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a11 {
+    background-image: url(images/hyderabad.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a12 {
+    background-image: url(images/jhelum.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a13 {
+    background-image: url(images/kamoke.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a14 {
+    background-image: url(images/larkana.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a15 {
+    background-image: url(images/mangla.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a16 {
+    background-image: url(images/mardan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a17 {
+    background-image: url(images/multan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a18 {
+    background-image: url(images/murree.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a19 {
+    background-image: url(images/okara.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a20 {
+    background-image: url(images/Pano\ Aqil.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a21 {
+    background-image: url(images/peshawar.webp);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a22 {
+    background-image: url(images/quetta.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a23 {
+    background-image: url(images/rahim\ yar\ khan.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a24 {
+    background-image: url(images/sadiqabad.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a25 {
+    background-image: url(images/Sahiwal.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a26 {
+    background-image: url(images/sargodha.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a27 {
+    background-image: url(images/sheikhupura.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a28 {
+    background-image: url(images/sialkot.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a29 {
+    background-image: url(images/sukkar.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.div7#a30 {
+    background-image: url(images/wah\ cantt.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.p3 {
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    padding-top: 10px;
+    box-sizing: border-box;
+    margin-left: 40px;
+    border-radius: 20px;
+    margin-top: 180px;
+}
+
+#div14 {
+    width: 1200px;
+    height: 350px;
+    margin: 25px;
+    margin-left: 50px;
+    border-radius: 20px;
+    background-color: rgb(215, 15, 100);
+}
+
+#image1 {
+    width: 500px;
+}
+
+#div13 {
+    width: 620px;
+    height: 300px;
+    margin-bottom: 70px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: white;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+word-spacing: 5px;
+float: left;
+margin-top: 20px;}
+#div13 > h1{color: rgb(255, 246, 246);
+font-family: Arial, Helvetica, sans-serif;
+font-size: 26px;}
+#div13 > img{width: 100px;
+    margin-right: 10px;
+}
+#div13 > img:hover{cursor: pointer;
+box-shadow: 1px 1px 5px 5px rgb(211, 211, 211);
+width: 110px;}
+#div13 > .img{margin-top: 50px;
+margin-left: 20px;
+border-radius: 5px;
+border: 2px solid rgb(195, 68, 121);}
+#div13 > .img:hover{cursor: pointer;
+box-shadow: 1px 1px 5px 5px rgb(211, 211, 211);}
+.div4.d{padding-right: 20px;}
+.div2.a{background-image: url(images/staff.webp);}
+.text{width: 80%;
+margin:10px auto ;
+color: grey;
+font-family: Arial, Helvetica, sans-serif;
+margin-bottom: 40px;}
+.text > h1{color: black;}
+.text > h2{color: black;}
+.text >span {color: rgb(215, 15, 100);
+font-weight: bolder;}
+.text > footer{width: 100%;
+height: 70px;}
+.text > footer > img{margin-top: 10px;}
+.text > footer > .icon{float: right;
+font-size: 46px;
+margin-right:20px;
+margin-top: 7px;
+color: rgb(215, 15, 100);}
+.text > footer > .icon > i:hover{font-size: 50px;
+border: 5px solid rgb(215, 15, 100);
+border-radius: 10px;
+cursor: pointer;
+box-shadow: 1px 1px 5px 5px rgb(233, 181, 203);}
+
